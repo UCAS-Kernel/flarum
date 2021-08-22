@@ -1,12 +1,12 @@
 {
-    "name": "flarum/flarum",
-    "description": "Delightfully simple forum software.",
+    "name": "karuboniru/flarum",
+    "description": "Delightfully simple forum software. With some minor modifications from Karuboniru",
     "type": "project",
     "keywords": [
         "forum",
         "discussion"
     ],
-    "homepage": "https://flarum.org/",
+    "homepage": "https://kernel.niconi.org/",
     "license": "MIT",
     "authors": [
         {
@@ -21,12 +21,18 @@
         "docs": "https://flarum.org/docs/"
     },
     "require": {
-        "flarum/core": "^1.0",
+        "askvortsov/flarum-auto-moderator": "^0.1.1",
+        "askvortsov/flarum-markdown-tables": "^1.2",
+        "askvortsov/flarum-moderator-warnings": "^0.6.0",
+        "askvortsov/flarum-pwa": "^3.0",
+        "clarkwinkelmann/flarum-ext-emojionearea": "^1.0",
+        "flarum-lang/chinese-simplified": "*",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
+        "flarum/core": "^1.0",
         "flarum/emoji": "*",
-        "flarum/lang-english": "*",
         "flarum/flags": "*",
+        "flarum/lang-english": "*",
         "flarum/likes": "*",
         "flarum/lock": "*",
         "flarum/markdown": "*",
@@ -37,7 +43,23 @@
         "flarum/sticky": "*",
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
-        "flarum/tags": "*"
+        "flarum/tags": "*",
+        "fof/best-answer": "^1.1",
+        "fof/drafts": "^1.0",
+        "fof/follow-tags": "^1.0",
+        "fof/forum-statistics-widget": "^1.0",
+        "fof/gamification": "^1.0",
+        "fof/ignore-users": "^1.0",
+        "fof/moderator-notes": "^1.0",
+        "fof/nightmode": "^1.0",
+        "fof/polls": "^1.0",
+        "fof/profile-image-crop": "^1.0",
+        "fof/upload": "^1.0",
+        "fof/user-bio": "^1.0",
+        "ianm/follow-users": "^1.0",
+        "karuboniru/mathplus": "*",
+        "league/flysystem-aws-s3-v3": "1.*",
+        "michaelbelgium/flarum-discussion-views": "^7.0"
     },
     "config": {
         "preferred-install": "dist",
