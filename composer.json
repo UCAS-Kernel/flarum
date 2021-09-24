@@ -39,7 +39,7 @@
         "flarum/mentions": "*",
         "flarum/nicknames": "*",
         "kyrne/websocket": "3",
-        "xelson/flarum-ext-chat": "*",
+        "kyrne/shout": "*",
         "flarum/statistics": "*",
         "flarum/sticky": "*",
         "flarum/subscriptions": "*",
