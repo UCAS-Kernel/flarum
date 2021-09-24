@@ -38,7 +38,7 @@
         "flarum/markdown": "*",
         "flarum/mentions": "*",
         "flarum/nicknames": "*",
-        "flarum/pusher": "*",
+        "kyrne/websocket": "*",
         "flarum/statistics": "*",
         "flarum/sticky": "*",
         "flarum/subscriptions": "*",
